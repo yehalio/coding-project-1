@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+
+/* Header */ 
+
+header {
+    background-color: #192841;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    height: 10vh;
+    padding: 2px 4%;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #FFD700;
+}
+
+/* Main Content*/
+
+/* HERO */
+
+.hero {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px 10px;
+}
+
+.hero-left {
+    width: 50%;
+    text-align: center;
+}
+
+.button {
+    margin: 10px;
+}
+
+.hero img {
+    width: 40%;  
+    border: 1px solid #999999;
+    max-height: 60vh;
+}
+
+.hero button {
+    background-color: black;
+    color: #FFD700;
+    font-weight: bold;
+    padding: 2px;
+    border: 2px solid #FFD700;
+    border-radius: 5px;
+}
+
+.hero button a {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+/* Resources */
+
+.divider {
+    margin: auto;
+    width: 80%;
+    border: 1px solid black;
+}
+
+.resources h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.resources {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.freecodecamp, .mozilla, .the-odin-project {
+    border: 1px solid black;
+    width: 75%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 8px;
+}
+
+.resources a {
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+}
+
+.freecodecamp img {
+    background-color: black;
+}
+
+/* Survey Form */
+
+.survey {
+    text-align: center;
+}
+
+.survey form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 5px 5px;
+    border: 1px solid rebeccapurple;
+}
+
+.survey h1, .survey p {
+    margin: 0.5em auto;
+}
+
+fieldset {
+    border: none;
+    padding: 5px;
+    min-width: 60%;
+}
+
+#male, #female {
+    width: unset;
+}
+
+label,
+input,
+textarea,
+select {
+    width: 100%;
+}
+
+.survey button {
+    border: none;
+}
+
+.survey button input {
+    background-color: black;
+    color: #FFD700;
+    font-weight: bold;
+    padding: 2px;
+    border: 2px solid #FFD700;
+    border-radius: 5px;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #192841;
+    color: #FFF;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.main-footer {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.main-footer li {
+    list-style: none;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.copyright {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.copyright p {
+    text-align: center;
+}

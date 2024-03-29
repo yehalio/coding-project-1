@@ -10,22 +10,32 @@
 <body>
     <header>
         <h1>LearnCode.org</h1>
-        <a>Hero</a>
-        <a>Resources</a>
-        <a>Survey</a>
+        <nav>
+            <a href=".hero">Hero</a>
+            <a href=".resources">Resources</a>
+            <a href=".survey">Survey</a>
+        </nav>
     </header>
     <main>
         <div class="hero">
-            <h2>Why do I want to learn code?</h2>
-            <p>
-            I love to solve problems and create projects. Also, I love to take new approaches to problems. I feel like coding encapsulates these concepts and more. Coding is a skill I want to learn as it would enable me to work on projects for myself and for the benefit of others, develop new skills, and would allow me to create something or sell a service (I'm an entrepreneur at heart).
-            </p>
-            <img src="https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-            alt="coding"
-            width="300">
+            <div class="hero-left">
+                <h2>Why do I want to learn code?</h2>
+                <p>
+                I love to solve problems and create projects. Also, I love to take new approaches to problems. I feel like coding encapsulates these concepts and more. Coding is a skill I want to learn as it would enable me to work on projects for myself and for the benefit of others, develop new skills, and would allow me to create something or sell a service (I'm an entrepreneur at heart).
+                </p>
+                <div class="button">
+                    <button><a href="https://github.com/yehalio/coding-project-1">Check out my GitHub!</a></button>
+                </div>
+            </div>
+                <img src="https://images.pexels.com/photos/225250/pexels-photo-225250.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                alt="coding">
         </div>
+
+        <div class="divider"></div>
+
         <div class="resources">
             <h2>Coding Resources</h2>
+            <div></div>
             <p>These have been especially helpful on my journey learning code.</p>
             <div class="freecodecamp">
                 <img src="https://d33wubrfki0l68.cloudfront.net/52edd2dfddbec5db22a65dba39951af8fa9bdff6/006f7/img/fcc_primary_large.svg"
@@ -46,6 +56,9 @@
                 <a href="https://www.theodinproject.com/">The Odin Project</a>
             </div>
         </div>
+
+        <div class="divider"></div>
+
         <div class="survey">
             <h1>Coding Survey</h1>
             <p>Please fill out this form.</p>
@@ -65,30 +78,40 @@
                         Please enter your gender: 
                     </label>
                     <label for="male">
-                        <input id="male" type="radio" name="male" checked>
+                        <input id="male" type="radio" name="gender" checked>
                         Male
                     </label>
                     <label for="female">
-                        <input id="female" type="radio" name="female">
+                        <input id="female" type="radio" name="gender">
                         Female
                     </label>
+                    </fieldset>
+                    <fieldset>
                     <label for="coding-opinion">
                         What is your opinion on coding? 
                         <textarea id="coding-opinion" name="coding-opinion" rows="3" cols="20" placeholder="My opinion on coding is..." required>
                         </textarea>
                     </label>
-                    <input type="submit" value="Submit">
+                    <button><input type="submit" value="Submit"></button>
                 </fieldset>
             </form>
         </div>
         <div class="footer">
             <footer>
+                <div class="main-footer">
                 <h1>LearnCode.org</h1>
-                <a>Home</a>
-                <a>Blog</a>
-                <a>About Us</a>
-                <a>Contact</a>
+                <div class="footer-nav">
+                <ul>
+                    <li><a>Home</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>About Us</a></li>
+                    <li><a>Contact</a></li>
+                </ul>
+                </div>
+                </div>
+                <div class="copyright">
                 <p>&copy 2024 LearnCode. All Rights Reserved</p>
+                </div>
             </footer>
         </div>
     </main>
